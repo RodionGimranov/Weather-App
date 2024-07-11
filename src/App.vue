@@ -12,7 +12,6 @@
     @click="pressGetStartedBTN">Get started</button>
   </section>
 
-  <!--HTML Templates for the main information window-->
   <section class="weather__data__window__container" :style="backgroundStyle">
     <div class="starus__bar__content">
       <p id="time__block">--:--</p>

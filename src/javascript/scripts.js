@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-// User's local time in Status bar
 function updateClocks () {
     const now = dayjs();
     document.getElementById('time__block').textContent = now.format('HH:mm');
@@ -8,8 +7,6 @@ function updateClocks () {
 
 setInterval(updateClocks, 1000);
 
-
-// Changing the interface language
 let changeLangButton = document.getElementById('langBTN');
 
 const langArr = {
